@@ -13,3 +13,5 @@ class GaussianRational:
         return 'I'm crazy'
     def __neg__(self):
 	return GaussianRational(-self.x, -self.y)
+    def roots(self):
+	return 0
